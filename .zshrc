@@ -72,7 +72,11 @@ ZSH_THEME="materialshell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    docker
+    docker-compose
     rvm
+    terraform
+    pnpm
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
@@ -119,3 +123,17 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/leonardo/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+# go version manager
+[[ -s "/Users/leonardo/.gvm/scripts/gvm" ]] && source "/Users/leonardo/.gvm/scripts/gvm"
+# end go version manager
+
+# go setup
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+# end go setup
