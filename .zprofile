@@ -10,12 +10,12 @@ export PATH="$PATH:$HOME/.rvm/bin"
 eval "$(pyenv init --path)"
 
 # pnpm
-export PNPM_HOME="/Users/leonardo/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
 # go version manager
-[[ -s "/Users/leonardo/.gvm/scripts/gvm" ]] && source "/Users/leonardo/.gvm/scripts/gvm"
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 # end go version manager
 
 # go setup
@@ -24,5 +24,5 @@ export PATH=$PATH:$GOPATH/bin
 # end go setup
 
 # Added by Toolbox App
-export PATH="$PATH:/Users/leonardo/Library/Application Support/JetBrains/Toolbox/scripts"
+export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 
