@@ -141,6 +141,18 @@ export PATH="$PNPM_HOME:$PATH"
 # end go version manager
 
 # go setup
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+#export GOPATH=$HOME/go
+#export PATH=$PATH:$GOPATH/bin
 # end go setup
+
+# Chrome Binary Alias
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
+# Tree command
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+# Auto switch terragrunt version with .terragrunt-version file
+source $HOME/Repositories/dotfiles/tgswitch/zsh_auto_switch_version.sh
+
+# Add TERRAGRUNT to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/bin"

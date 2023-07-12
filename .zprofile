@@ -19,8 +19,8 @@ export PATH="$PNPM_HOME:$PATH"
 # end go version manager
 
 # go setup
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+# export GOPATH=$HOME/go
+# export PATH=$PATH:$GOPATH/bin
 # end go setup
 
 # Added by Toolbox App
