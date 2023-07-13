@@ -26,3 +26,5 @@ export PATH="$PNPM_HOME:$PATH"
 # Added by Toolbox App
 export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 
+# Created by `pipx` on 2023-07-13 00:20:02
+export PATH="$PATH:/Users/leonardo/.local/bin"

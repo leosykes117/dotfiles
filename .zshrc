@@ -156,3 +156,6 @@ source $HOME/Repositories/dotfiles/tgswitch/zsh_auto_switch_version.sh
 
 # Add TERRAGRUNT to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/bin"
+
+# Created by `pipx` on 2023-07-13 00:20:02
+export PATH="$PATH:/Users/leonardo/.local/bin"
