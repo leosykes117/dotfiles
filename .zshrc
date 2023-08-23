@@ -112,6 +112,12 @@ source $ZSH/oh-my-zsh.sh
 # Add Homebrew's "sbin"
 export PATH="/usr/local/sbin:$PATH"
 
+# Upgrade sed for gsed
+PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# Upgrade find, xargs, and locate by gnubin findutils
+PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 # End rvm Config
@@ -159,3 +165,6 @@ export PATH="$PATH:$HOME/bin"
 
 # Created by `pipx` on 2023-07-13 00:20:02
 export PATH="$PATH:/Users/leonardo/.local/bin"
+
+# Install iTerm2 shell integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
