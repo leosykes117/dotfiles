@@ -79,6 +79,7 @@ plugins=(
     pnpm
     zsh-autosuggestions
     zsh-syntax-highlighting
+    terragrunt
 )
 
 source $ZSH/oh-my-zsh.sh
