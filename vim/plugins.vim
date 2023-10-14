@@ -8,11 +8,12 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plug-ins
-Plugin 'tpope/vim-fugitive'                 " Fugitive
+Plugin 'tpope/vim-fugitive'             " Fugitive
+Plugin 'fatih/vim-go'                   "  vim-go
 
 " Colorschemes
-Plugin 'morhetz/gruvbox'                    " gruvbox
-Plugin 'sainnhe/gruvbox-material'           " gruvbox-material
+Plugin 'morhetz/gruvbox'                " gruvbox
+Plugin 'sainnhe/gruvbox-material'       " gruvbox-material
 
 " Finish Vundle initialization
 call vundle#end()            " required
