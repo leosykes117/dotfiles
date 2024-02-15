@@ -1,5 +1,7 @@
+#!/bin/bash
+
 cdtgswitch(){
-  builtin cd "$@";
+  builtin cd "$@" || exit;
   cdir=$PWD;
   if [ -e "$cdir/.tgswitchrc" ]; then
     tgswitch
